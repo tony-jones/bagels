@@ -40,7 +40,6 @@ If you want to run the tests on your local machine please install `gem install h
 ```shell
 $ htmlproofer ./_site
 ```
-<a href='https://dependencyci.com/github/tony-jones/bagels'><img src='https://dependencyci.com/github/tony-jones/bagels/badge' alt='Dependency Status' /></a>
 
 [license-image]: https://img.shields.io/badge/license-ISC-blue.svg
 [license-url]: https://github.com/tony-jones/bagels/blob/develop/LICENSE
