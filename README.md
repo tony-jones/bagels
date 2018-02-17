@@ -42,7 +42,7 @@ $ htmlproofer ./_site
 ```
 
 [license-image]: https://img.shields.io/badge/license-ISC-blue.svg
-[license-url]: https://github.com/tony-jones/bagels/blob/master/LICENSE
+[license-url]: https://github.com/tony-jones/bagels/blob/develop/LICENSE
 [travis-image]: https://travis-ci.org/tony-jones/bagels.svg?branch=develop
 [travis-url]: https://travis-ci.org/tony-jones/bagels
 [dependencyci-image]: https://dependencyci.com/github/tony-jones/bagels/badge
