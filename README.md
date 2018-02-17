@@ -45,5 +45,5 @@ $ htmlproofer ./_site
 [license-url]: https://github.com/tony-jones/bagels/blob/develop/LICENSE
 [travis-image]: https://travis-ci.org/tony-jones/bagels.svg?branch=develop
 [travis-url]: https://travis-ci.org/tony-jones/bagels
-[dependencyci-image]: https://dependencyci.com/github/tony-jones/bagels/badge
+[dependencyci-image]: https://dependencyci.com/github/tony-jones/bagels/badge?style=flat
 [dependencyci-url]: https://dependencyci.com/github/tony-jones/bagels
