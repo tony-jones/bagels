@@ -1,0 +1,16 @@
+---
+layout: page
+title: Resources
+permalink: /resources/
+---
+
+<h4 class="section-title">Resources</h4>
+{% for resource in site.resources reversed %}
+<a href="{{ resource.url }}">
+  <article>
+    <h4>{{ resource.title }}</h4>
+    <p>{{ resource.excerpt }}</p>
+  </article>
+  <img src={{ resource.thumbnail_url }}>
+</a>
+{% endfor %}

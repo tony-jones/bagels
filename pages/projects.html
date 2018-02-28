@@ -1,0 +1,16 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<h4 class="section-title">Projects</h4>
+{% for project in site.projects reversed %}
+<a href="{{ project.url }}">
+  <article>
+    <h4>{{ project.title }}</h4>
+    <p>{{ project.excerpt }}</p>
+  </article>
+  <img src={{ project.thumbnail_url }}>
+</a>
+{% endfor %}

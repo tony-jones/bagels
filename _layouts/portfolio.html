@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <h4 itemprop="name headline">{{ portfolio.title }}</h4>
+  <div itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>
+
+{% include collection_navigation.html %}

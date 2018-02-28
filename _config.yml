@@ -3,7 +3,7 @@
 
 # Site settings
 title: Tony Jones | Product Designer
-email: your-email@domain.com
+email: ad30jone@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am a product designer with a passion for web accessibility and application security. Come check out my thoughts, writing, and general web stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -33,9 +33,17 @@ exclude: [
 # ==================
 # Collections 
 # ==================
-collections_dir: collections
+collections_dir: collection_types
 
 collections:
+  collection_types:
+    output: true
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
+
   projects:
     output: true
     permalink: /projects/:title/
